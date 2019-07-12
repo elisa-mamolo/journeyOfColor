@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-set-2017, 10.10.50
+    Author     : elisa
+*/
+
+
+/*FONTS*/
+*{
+ font-family: 'Montserrat', sans-serif;   
+}
+/*HEADING STYLE*/
+h1{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+@media only screen and (min-width:700px) and (max-width: 2300px){
+    h1{
+        font-size: 4rem; 
+        line-height: 7rem;
+    } 
+}
+.calc-method2 h1{
+      font-family: 'Rock Salt', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+#demo{
+    color: orangered;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+/* The hero image */
+/* Centered text */
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: white;
+    
+}
+.caption h1 {
+     font-family: 'Rock Salt', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+/*COUNTDOWN */
+
+/*SECTION 2 COUNTDOWN*/
+
+#demo{
+    color: orangered;
+    font-size: 60px;
+    
+    font-weight: 100;
+}
+#clockdiv{
+    
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #FFAF00;
+    display: inline-block;
+}
+
+section.calc-method2 { 
+  background: #FFAF00;
+  width: 700px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 100px calc(50% - 350px);
+  
+}
+section.calc-method2{
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+  section.calc-method2 {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}
+/*4 BUYING OPTIONS*/
+    /* card layout */
+    .row{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .row h3{
+        text-align: center;
+    }
+    
+    .img-card{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
+    .cards {
+        padding-left: 100px;
+            padding-right: 100px;
+    }
+    .card {
+        
+        margin-bottom: 2em;	
+    }
+    
+    .card a {
+        color: black;
+        text-decoration: none;
+    }
+    .card a:hover {
+        box-shadow: 3px 3px 8px hsl(0, 0%, 60%);
+    }
+.card-content {
+    padding: 1.4em;
+}
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+}
+.card-content p {
+    font-size: 95%;
+}
+
+/* Card layout - flexbox stuff */
+@media only screen and (min-width: 40em){
+    
+    .card{
+        flex: 0 1 calc(50% - 0.5em);
+        margin-bottom: 1em;
+        display: flex;
+    }
+    .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+}
+@media only screen and (min-width:60em){
+
+.card{
+    flex: 0 1 calc(50% - 0em);
+    margin-bottom: 1.8em;
+    
+}
+}
+
+
+
+
+/* SECTION 3 DOWNLOAD*/
+
+
+    section.calc-method3 { 
+  background: #F1006E;
+  width: 700px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 100px calc(50% - 350px);
+}
+section.calc-method3{
+    text-align: center;
+}
+@media (max-width: 800px) {
+  section.calc-method3 {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}
+
+/* SECTION 5 FORM*/
+
+
+    section.calc-method5 { 
+  background: whitesmoke;
+  
+  width: auto;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 2% 2%;
+}
+section.calc-method5 label{
+    color: #00BBBE;
+    
+}
+
+
+/*FOOTER*/
+
+#footer {
+   
+    background-color: #00BBBE;
+    color: white;
+}
+.left a {
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.left {
+    margin: 2%;
+    text-align:left;
+    float:left;
+    
+}
+
+.right {
+    margin: 2%;
+    float:right;
+    text-align:right;
+    
+}
+

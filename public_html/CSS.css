@@ -1,0 +1,83 @@
+.type1{
+	background-color: rgba(0,187,190,0.5);
+	background-blend-mode: overlay;
+}
+
+.mb-0> a {
+	color: white;
+}
+.card{
+	margin-bottom: 1.5em;
+	border: none;
+}
+*{
+ font-family: 'Montserrat', sans-serif;   
+}
+/*HEADING STYLE*/
+h1{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+@media only screen and (min-width:700px) and (max-width: 2300px){
+    h1{
+    
+        font-size: 2.5rem; 
+        line-height: 7rem;
+        
+}
+}
+/*text over image */
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    color: white;
+    
+}
+.caption p {
+    font-size: 50px;
+}
+/*FOOTER*/
+#footer{
+    background-color: #FFAF00;
+}
+
+.left a {
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.left {
+    margin: 2%;
+    text-align:left;
+    float:left;
+    background-color: none;
+    
+}
+
+.right {
+    margin: 2%;
+    float:right;
+    text-align:right;
+    
+}
+.bgyellow{
+    background-color: yellow;
+}
+
+

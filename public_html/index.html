@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HOME-THE JOURNEY OF COLOR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--MONTSERRAT FONT-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <!--CSS-->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        
+        
+        <!--BOOTSTRAP NAVIGATION BAR-->       
+        
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="index.html">IBA- THE JOURNEY OF COLOR</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link navbar-right" href="index.html">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="buy.html">BUY NOW</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="race.html">RACE</a>
+      </li>
+   
+    <li class="nav-item">
+        <a class="nav-link" href="yoga.html">YOGA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+       </ul>
+  </div>
+</nav>
+        
+         
+
+    
+    <!--HEROBANNER IMAGE-->
+    <div class="row" id="box-search">
+    <div class="thumbnail text-center">
+        <img src="color1.jpg" class="img-fluid" alt="people having fun at color run">
+        <div class="caption">
+            <h1>IBA<br>
+                THE JOURNEY OF COLOR
+            </h1>
+        </div>
+    </div>
+</div>
+    
+
+  
+  <!--TEXT SECTION-->
+ 
+  <section class="calc-method">
+  <h1>THE JOURNEY OF COLOR</h1>
+  <br>
+  <p>
+  
+  IBA presents the Journey of Colour, a wonderful activity for everybody who wishes to have a fun, colourful and crazy day together with friends, family and the community in Kolding!
+  <br>
+Lots of fun and people will share a day together to mix sport, passion and of course COLORS!
+<br>
+The Journey of Colour is a 5km running route through the main streets of Kolding, where we will all be celebrating love, unity and happiness. 
+We will finish this journey with our Yoga party, where we will experience these same feelings through a calming and restorative session</p>
+</section>
+  
+  <section class="calc-method2">
+      <h1>THE EVENT STARTS IN</h1>
+<!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+<h1>BUY OUR TICKETS</h1>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sept 22, 2017 15:40:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+  + minutes + "M " + seconds + "S ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  </section>
+
+<div class="container-fluid">
+           <div class="row">
+               <div class="col-sm-12 col-lg-6 ">  
+        
+                  <img src="gallery1.jpg" class=" img-fluid" alt="people at color run"/>
+        
+               </div>
+               <div class="col-sm-12 col-lg-6">  
+      
+                   <img src="gallery2.jpg" class=" img-fluid" alt="people having yoga lesson"/>
+               </div>
+               <div class="col-sm-12 col-lg-6">  
+                   <img src="gallery3.jpg" class=" img-fluid" alt="color yoga event"/>
+               </div>
+               <div class="col-sm-12 col-lg-6">  
+                   <img src="gallery4.jpg" class=" img-fluid" alt="color yoga event"/>
+       
+               </div>
+                <div class="col-sm-12 col-lg-6">  
+                   <img src="gallery5.jpg" class=" img-fluid" alt="people at color run with powder"/>
+       
+               </div>
+                <div class="col-sm-12 col-lg-6">  
+                   <img src="gallery6.jpg" class=" img-fluid" alt="yoga and colors"/>
+       
+               </div>
+          </div>
+      </div>
+
+<!--DOWNLOAD SECTION-->
+ 
+  <section class="calc-method3">
+  <h1>CHECK OUT OUR POSTER AND MAP</h1>
+  <br>
+  <p>Check out the route of the 5k</p>
+  <p><a href="poster.download" target="_blank">DOWNLOAD THE MAP HERE</a></p>
+  <p><a href="poster.download" target="_blank">DOWNLOAD THE POSTER HERE</a></p>
+ 
+</section>
+
+<section class="square">
+<div id="square">
+    <p class="social">FOLLOW US<br> 
+        ON
+        SOCIAL<br>
+    MEDIA</p>
+    <!-- Facebook icon by Icons8 -->
+    
+    <a href="#"><img src="fb.png" class=" img-fluid icons" width="50px" height="50px"alt="fb icon "/></a>
+    <a href="#"><img src="insta.png" class="img-fluid icons" width="50px" height="50px" alt="insta icon"/></a>
+    <a href="#"><img src="snap.png" class="img-fluid icons" width="50px" height="50px" alt="snapchat icon"/></a>
+    
+</div>
+</section>
+
+<!--FOOTER-->
+<div id="footer">
+    <div class="left">
+    <a class="nav-link" href="#square">Contact on social media</a>
+      <a class="nav-link" href="yoga.html">Yoga</a>
+        <a class="nav-link" href="race.html">Race</a>
+    </div>
+      
+    <div class="right">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      <a class="nav-link" href="policy.html">Privacy</a>
+   <a class="nav-link" href="get.html">Where is IBA</a>
+</div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
+</html>

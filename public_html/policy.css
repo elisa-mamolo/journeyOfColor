@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-set-2017, 11.03.04
+    Author     : elisa
+*/
+
+body {
+ font-family: 'Montserrat', sans-serif;
+ 
+
+}
+
+/*HEADING STYLE*/
+h2{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+@media only screen and (min-width:700px) and (max-width: 2300px){
+    h1{
+    
+        font-size: 2.5rem; 
+        line-height: 7rem;
+        
+}
+
+}
+.container{
+    background-color: #FFAF00;
+    
+    
+}
+.div{
+    background-color: #FFAF00;
+}
+
+
+
+/*FOOTER*/
+
+
+.left a {
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.left {
+    margin: 2%;
+    text-align:left;
+    float:left;
+    
+}
+
+.right {
+    margin: 2%;
+    float:right;
+    text-align:right;
+    
+}

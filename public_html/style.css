@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-set-2017, 10.36.32
+    Author     : elisa
+*/
+
+*{
+ font-family: 'Montserrat', sans-serif;   
+}
+/*HEADING STYLE*/
+h1{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+@media only screen and (min-width:700px) and (max-width: 2300px){
+    h1{
+    
+        font-size: 2.5rem; 
+        line-height: 7rem;
+        
+}
+}
+
+/*text over image */
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    color: white;
+    
+}
+.caption p {
+    font-size: 50px;
+}
+/* SECTION 1 calc() method */
+
+section.calc-method { 
+  background: #00BBBE;
+  width: 700px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 100px calc(50% - 350px);
+}
+section.calc-method{
+    text-align: center;
+}
+@media (max-width: 800px) {
+  section.calc-method {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}
+
+/*SECTION 2 COUNTDOWN*/
+
+#demo{
+    color: orangered;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #FFAF00;
+    display: inline-block;
+}
+
+section.calc-method2 { 
+  background: #FFAF00;
+  width: 700px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 100px calc(50% - 350px);
+}
+section.calc-method2{
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+  section.calc-method2 {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}
+
+/*PADDING PROBLEM SOLVED GALLERY*/
+
+.col-lg-6{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* SECTION 3 DOWNLOAD*/
+
+
+    section.calc-method3 { 
+  background: #F1006E;
+  width: 700px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 100px calc(50% - 350px);
+}
+section.calc-method3{
+    text-align: center;
+}
+@media (max-width: 800px) {
+  section.calc-method3 {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}
+
+
+/*SOCIAL MEDIA BOX*/
+.square{
+	background-color:#222222;
+	display: flex;
+        text-align: center;
+	height: 100vh;
+        color:white;
+	font-family:sans-serif;
+        
+}
+.square p{
+    margin: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 90px;
+}
+#square{
+	margin:auto;
+	
+	background-color:transparent;
+        align-content: center;
+	border:solid 20px white;
+        
+}
+/*SOCIAL MEDIA ICONS*/
+
+.icons{
+    margin: 5%;
+}
+/*FOOTER*/
+
+footer {
+   
+    color: white;
+}
+.left a {
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.left {
+    margin: 2%;
+    text-align:left;
+    float:left;
+    
+}
+
+.right {
+    margin: 2%;
+    float:right;
+    text-align:right;
+    
+}
+/* ///////////// Yoga /////////////////*/
